@@ -15,11 +15,11 @@ X:/002_Mediacollege/Periode1/FeatureDevelopment/FeatureDevelopment/Feature Devel
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58558
+52850
 Successfully changed project path to: X:/002_Mediacollege/Periode1/FeatureDevelopment/FeatureDevelopment/Feature Development
 X:/002_Mediacollege/Periode1/FeatureDevelopment/FeatureDevelopment/Feature Development
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 22.45 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.66 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,71 +35,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002548 seconds.
+Registered in 0.002960 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 21.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.179 seconds
+- Completed reload, in  1.239 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000656 seconds.
+Registered in 0.000675 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.827 seconds
+- Completed reload, in  0.826 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1121 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.7 MB.
-System memory in use after: 57.7 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1563.
-Total: 2.044400 ms (FindLiveObjects: 0.193900 ms CreateObjectMapping: 0.058200 ms MarkObjects: 1.717600 ms  DeleteObjects: 0.073600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/Tower.cs
-  artifactKey: Guid(7748a7a7e21261f41baeaba2f86c7c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Tower.cs using Guid(7748a7a7e21261f41baeaba2f86c7c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4686e2c6bf149b93e71a18a33331a9') in 0.041118 seconds
-  Import took 0.042938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.179488 seconds.
-  path: Assets/Scripts/PathFolloer.cs
-  artifactKey: Guid(ee3f6d510b1763a4ca022c0e94932d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PathFolloer.cs using Guid(ee3f6d510b1763a4ca022c0e94932d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ba0f7c397b28b3d866f7df498bbab7') in 0.010403 seconds
-  Import took 0.012224 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000842 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.831 seconds
-Platform modules already initialized, skipping
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.6 MB.
-System memory in use after: 57.7 MB.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.7 MB.
+System memory in use after: 57.8 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1566.
-Total: 1.831200 ms (FindLiveObjects: 0.129700 ms CreateObjectMapping: 0.028700 ms MarkObjects: 1.612500 ms  DeleteObjects: 0.058900 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1565.
+Total: 1.802200 ms (FindLiveObjects: 0.137300 ms CreateObjectMapping: 0.041300 ms MarkObjects: 1.553000 ms  DeleteObjects: 0.069500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Tower1.cs
+  artifactKey: Guid(7615bf76706b80e40b2c42c31ab8c3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tower1.cs using Guid(7615bf76706b80e40b2c42c31ab8c3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfc8c51b1f8175fe636cf81a6e6ed93') in 0.038240 seconds
+  Import took 0.039917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 318.300320 seconds.
+  path: Assets/Scripts/EnemyInRangeChecker.cs
+  artifactKey: Guid(ceb0c845ce3dc8643aad866a52afe147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyInRangeChecker.cs using Guid(ceb0c845ce3dc8643aad866a52afe147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4ca0f52456765e1973de07502cfe20') in 0.002324 seconds
+  Import took 0.004352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.632316 seconds.
+  path: Assets/Scripts/EnemyInRangeChecker1.cs
+  artifactKey: Guid(56a389e70dc131f458a12c9769f0012e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyInRangeChecker1.cs using Guid(56a389e70dc131f458a12c9769f0012e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353bbc5285d86f06bdda7d45c8e53534') in 0.002151 seconds
+  Import took 0.004076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.951842 seconds.
+  path: Assets/Scripts/Tower1.cs
+  artifactKey: Guid(7615bf76706b80e40b2c42c31ab8c3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tower1.cs using Guid(7615bf76706b80e40b2c42c31ab8c3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8df13f2f404ca1410582194ca5439e') in 0.002858 seconds
+  Import took 0.004624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.573043 seconds.
+  path: Assets/Scripts/EnemyHealthComponent.cs
+  artifactKey: Guid(df6708bdc01ef584cbbdf623c979e1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyHealthComponent.cs using Guid(df6708bdc01ef584cbbdf623c979e1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127b6d7c1abc449edf710824457289c8') in 0.006211 seconds
+  Import took 0.008103 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
